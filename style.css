@@ -1,0 +1,30 @@
+@media screen {
+    
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    align-content: center;
+    background-color: black;
+  
+}
+.emoji{
+    font-size: 11em;
+    margin-top: 10%;
+    cursor: pointer;
+    user-select:none ;
+}
+.hear-no-evil{
+    display: none;
+}
+.see-no-evil{
+    display: none;
+}
+.speak-no-evil{
+    display: none
+}
+.active{
+    display: block;
+}}
